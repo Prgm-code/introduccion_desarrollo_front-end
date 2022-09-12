@@ -1,0 +1,13 @@
+*{
+    
+
+}
+article {
+    color: rgb(34, 78, 8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    
+}
+time {
+    border: 1px dotted black ;
+}
