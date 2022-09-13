@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
@@ -15,6 +16,26 @@
 </head>
 
 <body>
+    <script src="https://kit.fontawesome.com/167491b07d.js" crossorigin="anonymous"></script>
+
+    <!-- Navbar content -->
+<nav class="navbar navbar-expand-lg " style="background-color: #82a8c4;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Mi Blog de Fotografias </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Contacto</a>
+            
+           
+        </div>
+        </div>
+    </div>
+</nav>
+  
     <header>
         <h1 style="color: blue">Mi Blog De Fotografías</h1>
         <h2>En este Blog publico fotrografías de los lugares que visito por trabajo.</h2>
@@ -22,29 +43,32 @@
 
     </header>
     <nav>
-        <h3>Contacto RRSS</h3>
-        <div>
-            <ul style="color: gray">
-                <li><a href="http://www.github.com/prgm-code/" target="_blank"
-                        style="color: rgb(180, 18, 12); font-style:italic">Github</a></li>
-                <li><a href="http://www.facebook.com" target="_blank">Facebook</a></li>
-                <li><a href="http://www.twitter.com" target="_blank">Twitter</a></li>
-                <li><a href="http://www.Instagram.com" target="_blank">Instagram</a></li>
-                <li><a href="http://www.Linkedin.com" target="_blank">Linkedin</a></li>
-                <li><a href="http://www.Youtube.com" target="_blank">Youtube</a></li>
-            </ul>
+        
+        <div class="card p-3 border border-2 " >
+            <div class="card-body shadow p-3 mb-1 bg-body rounded">
+                <ul style="color: gray" class="list-group ">
+                    <li class="list-group-item list-group-item-primary text-center"><strong><h4>Contacto</h4></strong> </li>
+                    <li class="list-group-item list-group-item-action"><a href="http://www.github.com/prgm-code/" target="_blank"
+                            style="color: rgb(180, 18, 12); font-style:italic">Github</a></li>
+                    <li class="list-group-item list-group-item-action"><i class="fa-brands fa-facebook"></i><a href="http://www.facebook.com" target="_blank"> Facebook</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="http://www.twitter.com" target="_blank">Twitter</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="http://www.Instagram.com" target="_blank">Instagram</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="http://www.Linkedin.com" target="_blank">Linkedin</a></li>
+                    <li class="list-group-item list-group-item-action"><a href="http://www.Youtube.com" target="_blank">Youtube</a></li>
+                </ul>
+            </div>
+            
         </div>
     </nav>
 
 
-    <Section>
-        <Article>
-            <div class="card p-3 border border-2 ">
+    <section>
+        <article>
+            <div class="card p-3 border border-2  ">
                 <div class="card-body shadow p-3 mb-1 bg-body rounded">
-                    <h2 class="card-title text-center  shadow p-2 mb-2 bg-body rounded">Atardecer en el estuario Reloncavi</h2>
-                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque laudantium aut
-                        facere voluptas modi, ab libero! Numquam eum ratione, laborum voluptatibus id, neque omnis optio
-                        voluptatem totam est, quam amet!.</p>
+                    <h3 class="card-title text-center ">Atardecer en el estuario Reloncavi</h3>
+                    <p class="card-text">El estuario de Reloncaví se encuentra al Sur de Chile, en la Región de Los Lagos. A nivel geográfico marca el final de la depresión intermedia y da inicio a la Carretera Austral.
+                    El estuario es utilizado para la navegación, deporte y turismo, así como también para la acuicultura. Antes de embarcarse, los turistas pueden disfrutar de unas maravillosas empanadas de marisco.</p>
                     <p class="card-text"><small class="text-muted"><time datetime="22-07-2022">Publicado el
                                 22-07-2022</time></small></p>
                 </div>
@@ -61,9 +85,7 @@
             <div class="card p-3  ">
                 <div class="card-body">
                     <h2 class="card-title text-center pb-5">Puerto Montt Vista Aerea</h2>
-                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam molestiae
-                        tempora rerum distinctio tempore, maiores recusandae iure explicabo magni architecto unde atque
-                        voluptatum sed eaque soluta excepturi sit quis sapiente.</p>
+                    <p class="card-text">Puerto Montt es una ciudad y comuna de la zona sur de Chile. Se encuentra en frente al seno de Reloncaví. Fue fundada en 1853 y se ha convertido en una de las principales ciudades de la zona sur austral, ya que es la puerta de entrada a la Patagonia chilena.</p>
                     <p class="card-text"><small class="text-muted"><time datatime="14-04-2022">Publicado el
                                 14-04-2022</time></small></p>
                 </div>
@@ -78,7 +100,7 @@
             <div class="card p-3  ">
                 <div class="card-body">
                     <h2 class="card-title text-center pb-5">Capilla Rolecha</h2>
-                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi earum, magni ipsam atque voluptates blanditiis tempora corrupti facilis suscipit inventore quam provident amet, odio non itaque, saepe obcaecati ut dolorum!</p>
+                    <p class="card-text">Rolecha es una localidad costera del sur de Chile que pertenece a la comuna de Hualaihué. En lengua indígena significa “brazo lateral Del Valle”. La iglesia San Pedro de Rolecha fue fundada en 1903 y actualmente pertenece a la Parroquia Sagrada Familia de Hornopirén.</p>
                     <p class="card-text"><small class="text-muted"> <time datatime="03-03-2022">Publicado el 03-03-2022</time></small></p>
                 </div>
                 <img src="./assets/img/capilla_rolecha.jpeg" class="img-fluid" alt="capilla_rolecha">
@@ -90,7 +112,7 @@
             <div class="card p-3  ">
                 <div class="card-body">
                     <h2 class="card-title text-center pb-5">Lago Azul</h2>
-                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto rem vel dignissimos a, placeat unde iure sed id quas asperiores consequatur, provident blanditiis officiis. Aliquid nisi totam architecto tempora deserunt.</p>
+                    <p class="card-text">El Lago Azul se encuentra situado en la Región de Los Lagos, en el Valle del Río Puelo, zona que es muy reconocida y valorada como una de las mejores para la pesca deportiva Fly Fishing de Trucha y Salmón.</p>
                     <p class="card-text"><small class="text-muted"> <time datatime="12-02-2022">Publicado el 12-02-2022</time></small></p>
                 </div>
                 <img src="./assets/img/lago_azul.jpeg" class="img-fluid" alt="lago_azul">
@@ -101,8 +123,9 @@
         <article>
             <div class="card p-3  ">
                 <div class="card-body">
-                    <h2 class="card-title text-center pb-5">Bote y Volcán Tronador</h2>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequatur, sapiente eligendi expedita iste deleniti explicabo blanditiis doloribus amet, earum ad ullam ipsam laudantium. Vel voluptatum corrupti perferendis modi recusandae?</p>
+                    <h2 class="card-title text-center pb-5">Volcan Tronador</h2>
+                    <p class="card-text">El cerro Tronador es un volcán activo que se encuentra en la zona sur de la Cordillera de Los Andes en la frontera entre Chile y Argentina.
+                    Es posible verlo desde parte de la Región de Los Lagos y su nombre se debe al ruido similar al del trueno producido por los frecuentes desprendimientos de sus glaciares.</p>
                     <p class="card-text"><small class="text-muted"> <time datatime="21-01-2022">Publicado el 21-01-2022</time></small></p>
                 </div>
                 <img src="./assets/img/Volcan_tronado_bote.jpeg" class="img-fluid" alt="Volcan_tronado_bote">
@@ -114,7 +137,7 @@
             <div class="card p-3  ">
                 <div class="card-body">
                     <h2 class="card-title text-center pb-5">Letrero Segundo Corral</h2>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae ullam, vel perferendis ipsa necessitatibus repudiandae possimus esse, laborum et corrupti quibusdam ea, ipsam architecto! Repellendus qui nobis sint deserunt error.</p>
+                    <p class="card-text">Segundo Corral es una localidad rural del sur de Chile ubicado en el valle del Río Puelo. La localidad se destaca por la actividad de pesca recreativa y a sus alrededores se encuentra Primer Corral y Llanada Grande.</p>
                     <p class="card-text"><small class="text-muted"> <time datatime="22-12-2021">Publicado el 22-12-2021</time></small></p>
                 </div>
                 <img src="./assets/img/sign_segundo_corral.jpeg" class="img-fluid" alt="sign_segundo_corral">
@@ -123,7 +146,7 @@
         <br>
     
 
-    </Section>
+    </section>
     <br>
     <footer><small>Derechos de autor reservados 2022 <a
                 href="http://www.github.com/prgm-code/"><strong>@prgm-code</strong></a></small></footer>

@@ -1,5 +1,5 @@
-*{
-    
+.card-text{
+font-size: medium;    
 
 }
 article {
@@ -10,4 +10,11 @@ article {
 }
 time {
     border: 1px dotted black ;
+}
+html { background-color: white; } 
+body {
+    min-height: 100vh;
+    max-width: 1200px;
+    background-color: white; 
+    margin: 0 auto;
 }
